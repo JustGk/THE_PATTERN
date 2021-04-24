@@ -222,3 +222,24 @@ for i in range(7):
             print(list2[j][i][k], end=" ")
         print(end=" ")
     print()
+while True:
+    print("want to print another word\n", "type 1 for yess\n", "type 2 for no")
+    g1 = int(input("type your choice"))
+    if g1 == 1:
+        print("PATTERN PRINTING OF ANY WORD MADE BY GK")
+        print("IMPORTANT !! ONLY CAPITAL WORDS CAN BE PRINTED")
+        pattern = input("enter any name:\n")
+        list = []
+        list2 = gk()
+        for i in range(7):
+            for j in range(len(list2)):
+                for k in range(6):
+                    print(list2[j][i][k], end=" ")
+                print(end=" ")
+            print()
+            continue
+
+    else:
+        print("HAVE A GOOD DAY")
+        break
+
