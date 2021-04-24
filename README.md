@@ -29,3 +29,5 @@ IN WHICH FIRST WE TAKE i for range ROW THEN j for range LEN(list2)index and k fo
 then we use print(list2[j][i][k])
 and use end="" for space 
 and last prin()for new line }
+
+***IN THE LAST WE USE A WHIELE LOOP PRINT ANOTHER WORD 
